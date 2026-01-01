@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Arizal Anshori</title>
+    <style>
+        /* --- RESET & BASIC STYLES --- */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* --- LAYOUT CONTAINER --- */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* --- HEADER --- */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .contact-info {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .contact-info span {
+            margin: 0 10px;
+        }
+
+        .links a {
+            font-weight: bold;
+            margin: 0 10px;
+        }
+
+        /* --- SECTIONS --- */
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            border-left: 5px solid #0056b3;
+            padding-left: 15px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        /* --- CONTENT STYLES --- */
+        p {
+            margin-bottom: 10px;
+        }
+
+        /* SKILLS */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #e9ecef;
+        }
+        .skill-category h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        /* PROJECTS & JOBS */
+        .job-entry, .project-entry {
+            margin-bottom: 25px;
+        }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+            flex-wrap: wrap;
+        }
+
+        .entry-header h3 {
+            font-size: 1.2rem;
+            color: #000;
+        }
+
+        .date {
+            font-style: italic;
+            color: #777;
+            font-size: 0.9rem;
+        }
+
+        .subtitle {
+            font-weight: bold;
+            color: #0056b3;
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* CERTIFICATIONS TAGS */
+        .cert-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .cert-tag {
+            background-color: #eef2f5;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            border: 1px solid #ddd;
+        }
+
+        /* --- RESPONSIVE --- */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 20px auto;
+            }
+            .entry-header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Arizal Anshori</h1>
+            <p><strong>Electrical Engineering Student | ML, Computer Vision & IoT Enthusiast</strong></p>
+            <div class="contact-info">
+                <span>arizalanhr34@gmail.com</span> |
+                <span>089501435572</span> |
+                <span>Bekasi Regency, West Java</span>
+            </div>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/arizal-anshori-888b6b241" target="_blank">LinkedIn</a>
+                <a href="https://github.com/kyrazz2602" target="_blank">GitHub</a>
+                <a href="https://www.kaggle.com/arizalkyrazz" target="_blank">Kaggle</a>
+            </div>
+        </header>
+
+        <section id="summary">
+            <h2>Executive Summary</h2>
+            <p>
+                Final-year Electrical Engineering student with hands-on experience in developing machine learning algorithms and data science projects. 
+                Graduate of Bangkit Academy 2024 by Google & GoTo with expertise in ML, Computer Vision, and IoT. 
+                Skilled in Python, TensorFlow, and SQL, with a proven ability to deliver AI-driven solutions that increase efficiency and reduce operational costs.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming & Data</h3>
+                    <p>Python, SQL, C++, JavaScript, Pandas, NumPy, Scikit-learn</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Machine Learning & AI</h3>
+                    <p>TensorFlow, PyTorch, Keras, YOLOv8, NLP, Computer Vision, Deep Learning</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Web & IoT</h3>
+                    <p>Node.js, Express.js, RESTful API, Arduino, ESP32, Sensor Integration</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Visualization & Tools</h3>
+                    <p>Power BI, Matplotlib, Seaborn, Git, Flask</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Project Experience</h2>
+
+            <div class="project-entry">
+                <div class="entry-header">
+                    <h3>AI Chat API (Backend Developer)</h3>
+                    <span class="date">Aug 2025 – Aug 2025</span>
+                </div>
+                <ul>
+                    <li>Built a RESTful API using Express.js to handle chat interactions with Google Gemini 2.0 Flash model.</li>
+                  <li>Designed secure environment configuration for API key management, eliminating 100% of hard-coded credentials.</li>
+                    <li>Implemented validation resulting in 80% improvement in AI response reliability.</li>
+                </ul>
+            </div>
+
+            <div class="project-entry">
+                <div class="entry-header">
+                    <h3>Smart Agri-Fishery Solution (ML Engineer)</h3>
+                    <span class="date">Jul 2024 – Dec 2024</span>
+                </div>
+                <ul>
+                    <li>Built ML models with TensorFlow to classify water quality using >1,000 collected data points.</li>
+                    <li>Developed predictive features for harvest estimation enabling up to 25% feed cost savings.</li>
+                </ul>
+            </div>
+
+            <div class="project-entry">
+                <div class="entry-header">
+                    <h3>Automatic Gate Prototype (IoT Engineer)</h3>
+                    <span class="date">Feb 2024 – Jul 2024</span>
+                </div>
+                <ul>
+                    <li>Designed automatic gate prototype using Arduino IDE, achieving 80% improvement in operational efficiency.</li>
+                    <li>Prototype fully automated gate operation, eliminating 100% of manual effort.</li>
+                </ul>
+            </div>
+
+            <div class="project-entry">
+                <div class="entry-header">
+                    <h3>License Plate Detection (Computer Vision Developer)</h3>
+                    <span class="date">Sep 2023 – Dec 2023</span>
+                </div>
+                <ul>
+                    <li>Trained YOLOv8 model on 1,000+ images, reaching 95% accuracy and 92% mAP.</li>
+                    <li>Automated inference pipeline using Python, reducing manual detection time by 80%.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="job-entry">
+                <div class="entry-header">
+                    <h3>University of Singaperbangsa Karawang</h3>
+                    <span class="date">Aug 2022 – 2026 (Expected)</span>
+                </div>
+                <span class="subtitle">Bachelor of Electrical Engineering | GPA: 3.55/4.0</span>
+                <p>Relevant Coursework: AI and Data Analytics, Algorithms and Programming, Digital Systems, Cloud Computing. [cite: 11]</p>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="cert-tags">
+                <span class="cert-tag">Natural Language Processing in TensorFlow (DeepLearning.AI)</span>
+                <span class="cert-tag">Convolutional Neural Networks in TensorFlow</span>
+                <span class="cert-tag">Supervised ML: Regression & Classification</span>
+                <span class="cert-tag">Advanced Learning Algorithms</span>
+                <span class="cert-tag">Linear Algebra for ML & Data Science</span>
+                <span class="cert-tag">Google Crash Course on Python</span>
+            </div>
+        </section>
+
+        <section id="organization">
+            <h2>Organization Experience</h2>
+            <div class="job-entry">
+                <div class="entry-header">
+                    <h3>Electrical Engineering Student Association</h3>
+                    <span class="date">Mar 2024 – Dec 2024</span>
+                </div>
+                <span class="subtitle">Community Service Division</span>
+                <ul>
+                    <li>Led educational programs reaching 30+ students in underserved communities.</li>
+                    <li>Coordinated cross-team initiatives, increasing participation by 40%.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
