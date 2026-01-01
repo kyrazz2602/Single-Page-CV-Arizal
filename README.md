@@ -23,6 +23,11 @@ Karena proyek ini adalah file statis, Anda tidak perlu menginstal server atau de
 3.  Cari file bernama `index.html` (atau `arizal-cv.html`).
 4.  **Klik dua kali** file tersebut, atau **klik kanan > Open with** dan pilih browser favorit Anda (Google Chrome, Firefox, Edge, Safari).
 
+## 🔗 Referensi Proyek
+
+Proyek ini dikerjakan sebagai bagian dari penyelesaian tantangan frontend dari **roadmap.sh**:
+* [Single Page CV Project - roadmap.sh](https://roadmap.sh/projects/single-page-cv)
+
 ## 📄 Lisensi
 
 Proyek ini dibuat untuk keperluan portofolio pribadi Arizal Anshori.
