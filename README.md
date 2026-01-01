@@ -20,7 +20,7 @@ Karena proyek ini adalah file statis, Anda tidak perlu menginstal server atau de
 
 1.  **Clone atau Download** repositori ini ke komputer Anda.
 2.  Buka folder proyek.
-3.  Cari file bernama `index.html` (atau `arizal-cv.html`).
+3.  Cari file bernama `index.html`.
 4.  **Klik dua kali** file tersebut, atau **klik kanan > Open with** dan pilih browser favorit Anda (Google Chrome, Firefox, Edge, Safari).
 
 ## 🔗 Referensi Proyek
